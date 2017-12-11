@@ -39,7 +39,7 @@ body {
     left: 50%;
     right: auto;
     margin-left: -13.5px;
-    transform: rotateZ(-90deg);
+    transform: rotateZ(90deg);
 }
 
 
