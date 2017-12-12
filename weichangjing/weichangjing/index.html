@@ -20,10 +20,10 @@
         <div class="swiper-slide">
             <div class="s1">
                 <div class="header">
-                    <img src="img/1.png" alt="" class="ani" swiper-animate-effect="flash" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
-                    <img src="img/2.png" alt="" class="ani" swiper-animate-effect="flash" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
-                    <img src="img/3.png" alt="" class="ani" swiper-animate-effect="flash" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
-                    <img src="img/4.png" alt="" class="ani" swiper-animate-effect="flash" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
+                    <img src="img/1.png" alt="" class="ani" swiper-animate-effect="rotateInUpLeft" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
+                    <img src="img/2.png" alt="" class="ani" swiper-animate-effect="rotateInUpLeft" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
+                    <img src="img/3.png" alt="" class="ani" swiper-animate-effect="rotateInUpLeft" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
+                    <img src="img/4.png" alt="" class="ani" swiper-animate-effect="rotateInUpLeft" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
                     <img src="img/6.png" alt="" class="ani" swiper-animate-effect="pulse" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
                 </div>
                 <div class="main">
@@ -44,7 +44,7 @@
         <div class="swiper-slide">
             <div class="s2">
                 <h2 class="ani" swiper-animate-effect="flip" swiper-animate-duration="0.3s" swiper-animate-delay="1s">领导致辞</h2>
-                <small class="ani" swiper-animate-effect="rotateInUpRight" swiper-animate-duration="1.3s" swiper-animate-delay="1s">LFADFR SPEECH</small>
+                <small style="display: block;" class="ani" swiper-animate-effect="wobble" swiper-animate-duration="1.3s" swiper-animate-delay="1s">LFADFR SPEECH</small>
                 <div class="main">
                     <div>
                         <p class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1.6s" swiper-animate-delay="0.4s">亲爱的同志们，大家晚上好</p>
@@ -82,7 +82,8 @@
 
     <!-- 如果需要导航按钮 -->
     <div class="swiper-button-next"></div>
-
+    <div><audio  id="mp3" src="mp3/Into the Battlefield.mp3" autoplay loop></audio></div>
+    <div id="mp3btn"  onclick="playPause()"><img src="img/musicIcon.png" alt=""></div>
 </div>
 
 <!-- Swiper JS -->

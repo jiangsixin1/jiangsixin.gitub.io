@@ -29,6 +29,34 @@ body {
 
 }
 
+/*自定义音乐*/
+#mp3btn {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    z-index: 1;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2.5;
+    background-color: rgba(8, 0, 29, 0.64);
+    border: 4px rgba(0, 0, 0, 0.68) solid;
+    transform: rotate(0deg);
+    animation: mp3btnkey 2s linear infinite;
+}
+@keyframes mp3btnkey {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+#mp3btn{
+
+}
+
 /*自定义样式  - 开始*/
 
 /*向下翻页的按钮*/
@@ -58,27 +86,27 @@ body {
     width: 35px;
     top: 120px;
     left: 50px;
-    animation: flash infinite;
+    animation: swing infinite;
 }
 
 .s1 .header img:nth-of-type(2){
     width: 65px;
     top: 90px;
     right: 40px;
-    animation: flash infinite;
+    animation: swing infinite;
 }
 
 .s1 .header img:nth-of-type(3){
     width: 55px;
     left: 35px;
     bottom: 180px;
-    animation: flash infinite;
+    animation: swing infinite;
 }
 .s1 .header img:nth-of-type(4){
     width: 50px;
     right: 50px;
     bottom: 210px;
-    animation: flash infinite;
+    animation: swing infinite;
 }
 .s1 .header img:nth-of-type(5){
     left: 50%;
