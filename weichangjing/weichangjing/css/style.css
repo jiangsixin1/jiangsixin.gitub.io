@@ -152,12 +152,17 @@ body {
 }
 
 
-
-.footer,.s2 .footer{
+.footer-left{
     position: absolute;
     left: 0;
     width: 100%;
-    bottom: 70px;
+    bottom: 39px;
+}
+.footer{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 31px;
 }
 .footer h2{
     font-size: 18px;
@@ -170,10 +175,9 @@ body {
     color: #00d7b2;
 }
 .footer p:nth-of-type(2){
-    height: 70px;
     position: absolute;
 }
-.footer img,.s2 .footer img{
+.footer img{
     height: 70px;
     position: absolute;
     left: -80px;
@@ -282,5 +286,15 @@ body {
     display: inline-block;
     margin-left: 20px;
 }
+.s3 ul li{
+    background: radial-gradient(rgba(0, 231, 249, 0), rgba(0, 231, 249, 0.48)); /* 标准的语法 */
+    border-radius: 50%;
+    margin: 139px;
+    padding: 30px;
+    position: absolute;
+    left: -29%;
+    bottom: 34%;
+}
+
 
 
