@@ -87,7 +87,7 @@ body {
 
 /* .s1*/
 
-.s1,.s2{
+.s1,.s2,.s3,.s4,.s5,.s6,.s7{
     background: url("../img/bj.png");
     height: 100%;
 }
@@ -153,35 +153,35 @@ body {
 
 
 
-.s1 .footer,.s2 .footer{
+.footer,.s2 .footer{
     position: absolute;
     left: 0;
     width: 100%;
     bottom: 70px;
 }
-.s1 .footer h2{
+.footer h2{
     font-size: 18px;
     margin-bottom: 15px;
     color: #00d7b2;
 }
-.s1 .footer p:nth-of-type(1){
+.footer p:nth-of-type(1){
     font-size: 16px;
     margin-bottom: 40px;
     color: #00d7b2;
 }
-.s1 .footer p:nth-of-type(2){
+.footer p:nth-of-type(2){
     height: 70px;
     position: absolute;
 }
-.s1 .footer img,.s2 .footer img{
+.footer img,.s2 .footer img{
     height: 70px;
     position: absolute;
     left: -80px;
 }
-.s1 .footer img:nth-of-type(1){
+.footer img:nth-of-type(1){
     animation: footerimg1 1s alternate infinite;
 }
-.s1 .footer img:nth-of-type(2){
+.footer img:nth-of-type(2){
     animation: footerimg2 1s alternate infinite;
 }
 
@@ -257,4 +257,30 @@ body {
     border-radius: 12px;
     text-align: center;
 }
+/*s3*/
+.s3{
+    color: #00d7b2;
+}
+.s3 h2{
+    padding-top: 60px;
+}
+.s3 h2::before{
+    content: '';
+    background: url("../img/14.png");
+    background-size: cover;
+    width: 83px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.s3 h2::after{
+    content: '';
+    background: url("../img/13.png");
+    background-size: cover;
+    width: 83px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 
