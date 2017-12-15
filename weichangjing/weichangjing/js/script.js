@@ -12,7 +12,9 @@ var swiper = new Swiper('.swiper-container', {
     navigation: {
         nextEl: '.swiper-button-next',
     },
-    /*动画效果*/
+
+
+    // 动画效果
     on:{
         init: function(){
             swiperAnimateCache(this); //隐藏动画元素
@@ -23,15 +25,23 @@ var swiper = new Swiper('.swiper-container', {
         }
     }
 });
-var mp3=document.querySelector("#mp3");
-var mp3btn=document.querySelector("#mp3btn");
 
-function playPause(){
+
+//背景音乐
+var mp3btn =document.querySelector("#mp3btn");
+var mp3 =document.querySelector("#mp3");
+mp3btn.addEventListener('click', function () {
     if(mp3.paused){
         mp3.play();
-        mp3btn.style.animationPlayState="running"
-    }else{
+        mp3btn.style.animationPlayState = 'running';
+    }else {
         mp3.pause();
-        mp3btn.style.animationPlayState="paused"
+        mp3btn.style.animationPlayState = 'paused';
     }
-}
+});
+
+
+
+
+
+
