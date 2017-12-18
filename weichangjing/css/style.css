@@ -1,10 +1,4 @@
-h1{
-    color: #000;
-    font-size: 70px;
-    position: absolute;
-    top: 100px;
-    left: 35%;
-}
+
 body {
     background-color: #1e0059;
     height: 100vh;
@@ -27,7 +21,20 @@ body::after {
     transform: translate(-50%, -50%);
     width: 1em;
 }
-
+.container{
+    padding-top: 50px;
+    position: absolute;
+    top:0;
+    width: 100%;
+}
+.container p{
+    text-align: center;
+}
+.container a{
+   font-size: 50px;
+    color: white;
+    text-decoration: none;
+}
 .cylinder {
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
